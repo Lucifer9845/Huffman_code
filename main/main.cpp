@@ -2,6 +2,6 @@
 
 int main()
 {
-    input();
+    read();
     return 0;
 }
