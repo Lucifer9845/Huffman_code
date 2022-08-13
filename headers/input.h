@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int input() {
+int read() {
 
     FILE *file;
     char c;
@@ -15,6 +15,6 @@ int input() {
     }
 
     fclose(file);
-    printf("%s", s);
+    //printf("%s", s);
     return 0;
 }
