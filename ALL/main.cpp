@@ -1,7 +1,8 @@
-#include "input.h"
+
+#include "display.h"
 
 int main()
 {
-    read();
+    display();
     return 0;
 }

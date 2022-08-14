@@ -1,12 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
+
 #include<fstream>
 #include<sstream>
 #include<iostream>
 #include<string>
 using namespace std;
 
-
+extern string str;
 int read() {
 
     FILE *file;
@@ -15,7 +14,7 @@ int read() {
     //int i = 0;
     file=fopen("test.txt","rt");
     ifstream f("test.txt");
-    string str;
+    
 
      if(f) {
       ostringstream ss;
