@@ -22,7 +22,7 @@ int read() {
       ss << f.rdbuf(); // reading data
       str = ss.str();
      }
-
+    cout<<str;
    // while((c=fgetc(file))!=EOF){
      //   printf("%c",c);
         //s[i++] = c;
