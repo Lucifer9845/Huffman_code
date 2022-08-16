@@ -5,8 +5,8 @@
 #include<string>
 using namespace std;
 
-extern string str;
-int read() {
+string str;
+void read() {
 
     FILE *file;
     char c;
@@ -21,7 +21,7 @@ int read() {
       ss << f.rdbuf(); // reading data
       str = ss.str();
      }
-    cout<<str;
+    //cout<<str;
    // while((c=fgetc(file))!=EOF){
      //   printf("%c",c);
         //s[i++] = c;
@@ -29,5 +29,10 @@ int read() {
 
     fclose(file);
     //printf("%s", s);
-    return 0;
+}
+
+void display()
+{
+    read();
+    cout<<str;
 }
