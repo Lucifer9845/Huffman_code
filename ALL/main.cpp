@@ -4,5 +4,6 @@
 int main()
 {
     display();
+    printCharWithFreq(str);
     return 0;
 }
